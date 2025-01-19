@@ -3,7 +3,7 @@ from transformers import pipeline
 
 st.title("Fine-Tuning BERT for Movie-Review Sentiment Classification")
 
-classifier = pipeline('text-classification', model='bert-base-uncased-sentiment-model')
+classifier = pipeline('text-classification', model='distilbert-base-uncased-finetuned-sst-2-english')
 
 text = st.text_area("Enter Your Review Here")
 

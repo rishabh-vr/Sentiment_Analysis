@@ -1,4 +1,4 @@
-# Sentiment_Analysis
+# Sentiment Analysis of Movie Reviews
 
 This repo hosts a BERT based fine-tuned model which classifies movie reviews into sentiments - positive and negative, which is further deployed on streamlit.
 
